@@ -7658,7 +7658,7 @@ Mainmenu Area
     position: absolute;
     background-color: rgb(255, 255, 255);
     height: 100%;
-    height: 40vh;
+    height: 700px;
     display: flex;
     flex-direction: column;
     box-shadow: 0 0 10px 0 rgba(149, 161, 158, 0.7);
@@ -7678,7 +7678,7 @@ Mainmenu Area
         cursor: pointer; }
   .rn-popup-mobile-menu.menu-open {
     visibility: visible;
-    opacity: 0.9; }
+    opacity: 0.95; }
     .rn-popup-mobile-menu.menu-open .inner {
       opacity: 1;
       left: 0;
