@@ -9140,11 +9140,18 @@ Portfolio Style Three
     opacity: 0.75;
     font-weight: 300; }
 
+.service.service__style--2.minw300 {
+  min-height: 300px;
+}
+
+.service.service__style--2.minw270 {
+  min-height: 270px;
+}
+
 .service-main-wrapper .service.service__style--2 {
   padding: 30px 35px;
   transition: transform 0.65s cubic-bezier(0.05, 0.2, 0.1, 1), box-shadow 0.65s cubic-bezier(0.05, 0.2, 0.1, 1);
   z-index: 2;
-  min-height: 280px;
   border-radius: 10px;
   background-color: #ffffff;
   margin-top: 30px; }
