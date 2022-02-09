@@ -7653,12 +7653,12 @@ Mainmenu Area
   opacity: 0;
   transition: opacity .5s ease-out; }
   .rn-popup-mobile-menu .inner {
-    width: 320px;
+    width: 250px;
     z-index: 999;
     position: absolute;
-    background-color: #fff;
+    background-color: rgb(255, 255, 255);
     height: 100%;
-    height: 100vh;
+    height: 40vh;
     display: flex;
     flex-direction: column;
     box-shadow: 0 0 10px 0 rgba(149, 161, 158, 0.7);
@@ -7678,7 +7678,7 @@ Mainmenu Area
         cursor: pointer; }
   .rn-popup-mobile-menu.menu-open {
     visibility: visible;
-    opacity: 1; }
+    opacity: 0.9; }
     .rn-popup-mobile-menu.menu-open .inner {
       opacity: 1;
       left: 0;
